@@ -1,0 +1,102 @@
+
+@media (max-width: 1200px){  
+    html{
+        font-size: 90%;
+    }
+
+    .hero{
+        background-size: 90%;
+        width: auto;
+        height: auto;
+    }
+    
+}
+@media (max-width: 768px){  
+    html{
+        font-size: 85%;
+    }
+
+    .hero{
+        background-size: 100%;
+        width: auto;
+        height: 100;
+    }
+    
+}
+@media (max-width: 690px){
+    html{
+        font-size:  75%;
+    }
+
+    .hero{
+        background-size: 80%;
+        width: auto;
+        height: 300px;
+    }
+    
+}
+
+.col mb-5 {
+    line-height: 1;
+  font-size: 10.5em;
+  font-weight: 900;
+  background-image: url(/assets/heero.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-clip: text;
+  color: transparent;
+}
+
+section.py-5 {
+  background-color: white;
+}
+
+.wrapper {
+  position: relative;
+  border-radius: 3%;
+  padding: 0.1%;
+  grid-template-columns: 1fr 1fr;
+  background-color: #cecccc70;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+}
+
+.wrapper .card img {
+  width: 100%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.wrapper .card:hover img {
+  transform: scale(0.95);
+}
+#home {
+  height: 500px;
+  background-image: url(assets/heero.png);
+  background-position: center;
+  background-size: cover; 
+}
+
+@media (max-width: 992px) {
+  #home {
+      height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  #home {
+      height: 300px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  #home {
+      height: 200px;
+  }
+}
